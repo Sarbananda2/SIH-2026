@@ -3,8 +3,39 @@
 Our reading of [`problem-statement.md`](problem-statement.md). This is
 interpretation, not official text — where the two disagree, the statement wins.
 
-Status: Phase 1 deconstruction — no external research conducted yet
+Status: **partially overturned by Phase 3 evidence — read the banner below**
 Last updated: 2026-08-31
+
+> ## ⚠ What the evidence overturned
+>
+> Phase 3 research contradicted several assumptions in this document. The
+> original reasoning is preserved below so the change is traceable, but do not
+> build on it without reading this first. Evidence:
+> [`domain-context.md`](domain-context.md),
+> [`../market-research/user-signals.md`](../market-research/user-signals.md),
+> [`../technical-research/video-analytics-feasibility.md`](../technical-research/video-analytics-feasibility.md).
+>
+> 1. **The border may be open, not fenced.** The sponsoring department appears
+>    to be SSB, which guards the India–Nepal and India–Bhutan borders — crossed
+>    lawfully every day. "Any human is an intruder" would be the wrong model.
+>    *Unconfirmed — see [`problem-statement.md`](problem-statement.md).*
+> 2. **The stated pain is cost, not attention.** The description reportedly
+>    leads with eliminating dependence on expensive dedicated surveillance
+>    hardware. Our attention-bottleneck framing may be our problem, not theirs.
+> 3. **Power, not bandwidth, is the binding physical constraint.** A Standing
+>    Committee found 328 SSB outposts with no electricity connection, and 308 of
+>    734 without road access. Assumption 3 below is aimed at the wrong resource.
+> 4. **The dominant failure mode is missing entirely: feeds that never arrive.**
+>    CAG Report 15 of 2020 found 32–45% of Delhi Police cameras non-functional,
+>    and only 22–48% of C4i-linked cameras monitorable. A camera that is down
+>    beats any false-positive problem.
+> 5. **Models do not survive a change of scene.** A cross-dataset audit found
+>    AUC falling from 0.704 to 0.499 — chance — across scenes. Per-camera
+>    calibration is not optional.
+>
+> What survived: **assumption 4 (attention)** — CAG documents one official
+> monitoring ~60 cameras, called unworkable by the auditor — and **assumption 5
+> (false positives)**, the best-supported claim we have.
 
 ## Confidence markers
 
