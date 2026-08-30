@@ -9,7 +9,7 @@ Last updated: 2026-08-31
 | # | Stage | Status | Output lives in |
 | --- | --- | --- | --- |
 | 1 | Problem definition | In progress | [`research/problem-space/`](../../research/problem-space/) |
-| 2 | Research & validation | Not started | [`research/`](../../research/) |
+| 2 | Research & validation | Largely done — one blocking verification | [`research/`](../../research/) |
 | 3 | Product discovery | Not started | — structure not yet created |
 | 4 | Product definition | Not started | — structure not yet created |
 | 5 | Architecture & system design | Not started | [`docs/architecture/`](../architecture/) |
@@ -30,7 +30,15 @@ provisional.
 
 ## Stage 2 — Research & validation
 
-Answer the questions listed at the end of
-[`problem-analysis.md`](../../research/problem-space/problem-analysis.md), and
-either substantiate or kill the five working assumptions. Decisions that come
-out of it get recorded in [`../decisions/`](../decisions/).
+Four research threads completed: domain evidence, competitor landscape, operator
+signals, and technical feasibility. Conclusions are synthesised in
+[`research/findings/evidence-synthesis.md`](../../research/findings/evidence-synthesis.md).
+
+Assumptions 4 and 5 survived; assumptions about fenced perimeters, bandwidth,
+and the framing generally did not — see the banner in
+[`problem-analysis.md`](../../research/problem-space/problem-analysis.md).
+
+**Blocking:** confirm on sih.gov.in whether the sponsoring department is SSB and
+what the full description asks for. The product direction depends on it.
+
+**Deadline: 20 September 2026.**
