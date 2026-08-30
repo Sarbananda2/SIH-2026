@@ -1,0 +1,36 @@
+# Roadmap
+
+The stages this project moves through, what each produces, and where its output
+lives. Update the status column as stages progress — this is how the project's
+journey stays traceable.
+
+Last updated: 2026-08-31
+
+| # | Stage | Status | Output lives in |
+| --- | --- | --- | --- |
+| 1 | Problem definition | In progress | [`research/problem-space/`](../../research/problem-space/) |
+| 2 | Research & validation | Not started | [`research/`](../../research/) |
+| 3 | Product discovery | Not started | — structure not yet created |
+| 4 | Product definition | Not started | — structure not yet created |
+| 5 | Architecture & system design | Not started | [`docs/architecture/`](../architecture/) |
+| 6 | Implementation | Not started | separate application repository |
+| 7 | Testing & validation | Not started | — structure not yet created |
+| 8 | Deployment / demonstration | Not started | — structure not yet created |
+| 9 | Hackathon submission | Not started | — structure not yet created |
+
+Directories for later stages are created when the stage arrives, not in advance.
+See [`../../CONTRIBUTING.md`](../../CONTRIBUTING.md).
+
+## Stage 1 — Problem definition
+
+Problem statement 26187 recorded; analysis drafted with assumptions and unknowns
+made explicit. **Blocking gap:** the full official description, organisation,
+category, and theme are still missing, so every inference in the analysis is
+provisional.
+
+## Stage 2 — Research & validation
+
+Answer the questions listed at the end of
+[`problem-analysis.md`](../../research/problem-space/problem-analysis.md), and
+either substantiate or kill the five working assumptions. Decisions that come
+out of it get recorded in [`../decisions/`](../decisions/).
